@@ -1,0 +1,251 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#nav_bar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#reg_button {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#section_1 img {
+    width: 1000px;
+    height: 550px;
+}
+
+.courses_header_and_para h2,
+.courses_header_and_para p {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card {
+    display: flex;
+}
+
+.right_part {
+    margin-left: 24px;
+}
+
+.card_price {
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.courses_button button,
+.s3_button button,
+.s5_button button {
+    background-color: #289BDE;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+
+
+}
+
+.courses_button {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#section_2 {
+    margin-bottom: 130px;
+}
+
+#section_3 {
+    display: flex;
+    height: 600px;
+}
+
+.s3_right_part {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color: #F4FAFD;
+    width: 50%;
+    /* height: 806px; */
+}
+
+.s3_left_part {
+    width: 50%;
+    /* height: 806px; */
+}
+
+.s3_left_part img {
+    width: 100%;
+    height: 600px;
+}
+
+.s3_price_container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#section_4 {
+    display: flex;
+    background-color: #289BDE;
+    border-radius: 5px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    margin-top: 130px;
+}
+
+.s4_left_part {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 350px;
+}
+
+.s4_button button {
+    text-align: center;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    color: #289BDE;
+    font-weight: bold;
+}
+
+.s4_left_part h1 {
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+.s5_card_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5_card_container .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_top img {
+    width: 240px;
+}
+
+.s5_button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.s5_header p {
+    color: #777777;
+
+}
+
+#section_6 .s6_header {
+    text-align: center;
+}
+
+#section_6 p {
+    color: #777777;
+}
+
+.card_footer img {
+    Width: 42px;
+    Height: 42px;
+    border-radius: 100px;
+
+}
+
+.card_footer {
+    display: flex;
+    align-items: center;
+
+}
+
+#section_6 .card {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid black;
+    padding: 40px;
+
+}
+
+#section_6 .card_header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name_desig {
+    margin-left: 20px;
+
+}
+
+.name_desig p {
+    margin: 0px;
+}
+
+.star_container {
+    color: #FBBF24;
+}
+
+#section_8 {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.brand_container img {
+    width: 100px;
+    height: 24px;
+}
+
+.brand_container {
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+footer {
+    background-color: 
+} */
